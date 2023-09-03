@@ -134,6 +134,7 @@ namespace CalculadoraBasica
             this.btnCalcular.TabIndex = 9;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpiar
             // 
