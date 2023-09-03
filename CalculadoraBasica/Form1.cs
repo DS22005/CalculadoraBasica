@@ -19,7 +19,7 @@ namespace CalculadoraBasica
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {// declaramos variables
-            double dato1, dato2, relsultado;
+            double dato1, dato2, resultado;
 
             //asiganamos volares a nuestra variables
             if( string.IsNullOrEmpty(txtDato1.Text)|| (string.IsNullOrEmpty(txtDato2.Text)))
@@ -29,6 +29,32 @@ namespace CalculadoraBasica
             }
             dato1 = Convert.ToDouble(txtDato1.Text);
             dato2 = Convert.ToDouble(txtDato2.Text);
+
+            int indice = lstOperacion.SelectedIndex;
+            if (indice == 0)
+            {
+                resultado = dato1 + dato2;
+                lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+            else if (indice == 1)
+                {
+                    resultado = dato1 - dato2;
+                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+                } 
+            else if (indice == 2)
+                {
+                    resultado = dato1 * dato2;
+                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+                }
+            else if (indice==3)
+                {
+                    resultado = dato1 / dato2;
+                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+                }
+                else
+                {
+                    MessageBox.Show("erro de seleccion de datos");
+                }
+            }
         }
     }
 }
