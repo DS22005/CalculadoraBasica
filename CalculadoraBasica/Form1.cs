@@ -35,26 +35,46 @@ namespace CalculadoraBasica
             {
                 resultado = dato1 + dato2;
                 lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
-            else if (indice == 1)
-                {
-                    resultado = dato1 - dato2;
-                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
-                } 
-            else if (indice == 2)
-                {
-                    resultado = dato1 * dato2;
-                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
-                }
-            else if (indice==3)
-                {
-                    resultado = dato1 / dato2;
-                    lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
-                }
-                else
-                {
-                    MessageBox.Show("erro de seleccion de datos");
-                }
             }
+
+            else if (indice == 1)
+            {
+                resultado = dato1 - dato2;
+                lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+            }
+            else if (indice == 2)
+            {
+                resultado = dato1 * dato2;
+                lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+            }
+            else if (indice == 3)
+            {
+                resultado = dato1 / dato2;
+                lblResultado.Text = (Convert.ToString("el Resultado es :" + resultado));
+            }
+            else
+            {
+                MessageBox.Show("erro de seleccion de datos");
+            }
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblResultado.Text = " En espera del resultado";
+            lblOperacion.Text = " Elija una de las siguientes operaciones";
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtDato1.Clear();
+            txtDato2.Clear();
+            lblResultado.Text = " En espera del resultado"; 
         }
     }
 }

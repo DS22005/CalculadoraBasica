@@ -1,0 +1,10 @@
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.csproj.AssemblyReference.cache
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.Form1.resources
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.Properties.Resources.resources
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.csproj.GenerateResource.cache
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\bin\Debug\CalculadoraBasica.exe.config
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\bin\Debug\CalculadoraBasica.exe
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\bin\Debug\CalculadoraBasica.pdb
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.exe
+C:\Users\Dell\Source\Repos\CalculadoraBasica\CalculadoraBasica\obj\Debug\CalculadoraBasica.pdb

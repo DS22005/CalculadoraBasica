@@ -144,6 +144,7 @@ namespace CalculadoraBasica
             this.btnLimpiar.TabIndex = 10;
             this.btnLimpiar.Text = "Reiniciar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnCerrar
             // 
@@ -153,6 +154,7 @@ namespace CalculadoraBasica
             this.btnCerrar.TabIndex = 11;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Form1
             // 
@@ -173,6 +175,7 @@ namespace CalculadoraBasica
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
