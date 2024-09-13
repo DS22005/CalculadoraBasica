@@ -21,7 +21,7 @@ namespace CalculadoraBasica
         {// declaramos variables
             double dato1, dato2, resultado;
 
-            //asiganamos volares a nuestra variables
+            //asiganamos volares a nuestra variables  ...
             if( string.IsNullOrEmpty(txtDato1.Text)|| (string.IsNullOrEmpty(txtDato2.Text)))
             {
                 MessageBox.Show("ingrese datos en los campos");
